@@ -1,0 +1,89 @@
+
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+  }
+  
+ 
+  .hero {
+    background: linear-gradient(135deg, #031f7a 0%, #031f7a 100%);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+  }
+  
+  #sobre, #servicos, #contato {
+    padding: 80px 0;
+  }
+  
+  #sobre h2, #servicos h2, #contato h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #servicos .col-md-4 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  #servicos .col-md-4:hover {
+    transform: translate(-5px);
+  }
+  
+  
+  .footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+
+  form .form-control {
+    border-radius: 0.75rem;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+  }
+  
+  form .form-control:focus {
+    border-color: #0078d7;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.3);
+  }
+  
+  
+  .btn-primary {
+    background-color:#031f7a;
+    border-color: #031f7a;
+    border-radius : 0.5rem;
+    font-weight : 500;
+    transition : background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005fa3;
+    border-color: #005fa3;
+  }
+  
